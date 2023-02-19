@@ -23,6 +23,11 @@
   npx wrangler secret put SUPABASE_URL
 ```
 
+```bash
+  //publish
+  npx wrangler publish
+```
+
 
 **Database Table:** shortened_url , redirect_url , clicks
 
