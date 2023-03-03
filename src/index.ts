@@ -82,7 +82,7 @@ app.get("/:url", async (c) => {
     return c.json({ error: "Not found", url: url }, 404);
   }
 
-  return c.redirect("REDIRECT DOMAIN" + data.redirect_url);
+  return c.redirect( data.redirect_url);
 });
 
 export default app;
